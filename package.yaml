@@ -1,0 +1,19 @@
+name:                uncurry
+version:             0.1.0.0
+synopsis:            Polymorphic uncurry function
+#description:
+homepage:            https://github.com/pavelkogan/uncurry#readme
+license:             BSD3
+author:              Pavel Kogan
+maintainer:          pkogan@gmail.com
+copyright:           (c) 2017 Pavel Kogan
+category:            Control
+extra-source-files:
+- README.md
+
+ghc-options: -Wall
+dependencies:
+  - base >= 4.7 && < 5
+
+library:
+  source-dirs: src
